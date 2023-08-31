@@ -10,8 +10,8 @@ from tokeni import AToken
 service_name = "testman"
 active_cmd = {}
 tasks_made = {}
-deta_data_token = "d0xuy41v68a_97QYgZqGPUiwUPVAd6TD4kVPy6rGQnG4"
-jwt_secret_key = "iwasbornandraisedbutcutfromadifferentcloth,lifewasn'tfunnywhenbeingcalledbrokewasajoke"
+deta_data_token = "your_deta_token"
+jwt_secret_key = "your_jwt_key"
 token_service = str()
 #detaguy = Detaman(deta_data_token,"tokens_db")
 detaguy = Deta(deta_data_token)
@@ -175,7 +175,7 @@ async def xstartCmd(update,context):
 
 def main():
     # Set up your bot token and create an Updater instance
-    app = ApplicationBuilder().token('6274961154:AAG_G3E1mYVQ-AVL_YJUteIgmaUvWlzMxss').build()
+    app = ApplicationBuilder().token('your_telegrambot_token').build()
     #updater = Updater(token=).Updater()#, use_context=True)
     #dispatcher = updater.dispatcher
 
